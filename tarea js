@@ -68,14 +68,14 @@ function createUndefinedVariable() {
 function checkUserNameType() {
     // Tu código aquí...
     const userName= "Larissa"
-    typeof userName
+    console.log(typeof userName);
 }
 
 // 11. Asegúrate de que `dogId` es una cadena de texto y luego imprime el tipo de dato en consola.
 function checkDogIdIsString() {
     // Tu código aquí...
     const texto= "dogId"
-    typeof texto
+    console.log(typeof texto)
 }
 
 // console.log()
