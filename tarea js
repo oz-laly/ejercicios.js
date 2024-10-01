@@ -67,14 +67,14 @@ function createUndefinedVariable() {
 // 10. Escribe un código para ver el tipo de una variable llamada `userName` e imprime el tipo de dato en consola.
 function checkUserNameType() {
     // Tu código aquí...
-    let userName= "Larissa"
+    const userName= "Larissa"
     typeof userName
 }
 
 // 11. Asegúrate de que `dogId` es una cadena de texto y luego imprime el tipo de dato en consola.
 function checkDogIdIsString() {
     // Tu código aquí...
-    let texto= "dogId"
+    const texto= "dogId"
     typeof texto
 }
 
@@ -101,3 +101,21 @@ function logVersion() {
     console.log(mensaje + version)
     
 }
+
+  // Exportar todas las funciones para poder usarlas en las pruebas
+module.exports = {
+    compareTenAndNine,
+    compareZeroAndZero,
+    compareSeven,
+    canBuyProduct,
+    createMessageVariable,
+    createSumVariable,
+    createDisabledConstant,
+    createNullVariable,
+    createUndefinedVariable,
+    checkUserNameType,
+    checkDogIdIsString,
+    logMessage,
+    logAge,
+    logVersion,
+};
